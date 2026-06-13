@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+feedback_store.json
+feedback_store.tmp
+.idea/
+.vscode/
+.DS_Store
+frontend/node_modules/
+frontend/.npm-cache/
+frontend/dist/
+model/*.pth
+*.zip
+*.pptx
+*.docx
+成员照片/
+my_chinese_sms.txt

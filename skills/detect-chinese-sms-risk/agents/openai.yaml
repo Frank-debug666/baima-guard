@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chinese SMS Risk Detector"
+  short_description: "Detect and explain Chinese SMS fraud risks"
+  default_prompt: "Use $detect-chinese-sms-risk to analyze this Chinese message for fraud risk."
