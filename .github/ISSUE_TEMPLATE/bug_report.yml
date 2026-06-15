@@ -1,0 +1,16 @@
+name: Bug report
+description: Report a reproducible application or model behavior issue
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Use synthetic or redacted messages only. Include expected and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Environment
+      description: OS, Python/Node versions, and relevant logs.
+
