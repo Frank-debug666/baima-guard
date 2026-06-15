@@ -11,6 +11,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: requirements-api.txt
       - run: python -m pip install -r requirements-api.txt
       - run: python -m py_compile api_model.py api_server.py train_api_model.py
       - run: python -c "from test_risk_policy import test_high_risk_combinations,test_normal_messages_do_not_trigger_policy; test_high_risk_combinations(); test_normal_messages_do_not_trigger_policy()"
@@ -29,4 +30,3 @@ jobs:
           cache-dependency-path: frontend/package-lock.json
       - run: npm ci
       - run: npm run build
-
